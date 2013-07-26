@@ -1,0 +1,176 @@
+.top_menu {
+	list-style: none;
+	font-size: 11px;
+	background: url(../img/topnav_bg.gif) repeat-x;
+	font-family: tahoma, verdana, arial;
+	padding-left: 12px;
+	position: relative;
+	z-index: 9999;
+	height:38px;
+}
+
+ul.topnav {
+  list-style: none;
+	margin: 0;
+	padding: 0 0 5px 0;
+	min-width:500px
+}
+ul.topnav li {
+	float: left;
+	margin: 0;	
+	padding: 0 10px 0 0;
+	position: relative; /*--Declare X and Y axis base--*/
+}
+
+ul.topnav li a{
+	padding: 9px 5px;
+	color: #DCDCDC; 
+	display: block;
+	text-decoration: none;
+	float: left;
+	font-weight: bold;
+}
+ul.topnav li a:hover{
+	background: url(../img/topnav_hover.gif) repeat-x;
+	color: #fff; /* A4CB1B */
+}
+
+.login_welcome {
+	color:#FFFFFF;
+	padding-top: 8px;
+	padding-right: 20px;
+	padding-bottom: 0;
+	padding-left: 0;
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	font-size:12px;
+}
+.login_welcome a{
+	font-size:12px;
+	padding-left:30px;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.login_welcome a:hover{
+	color: #A4CB1B;
+	text-decoration:none;
+}
+
+/* dropdown menus */
+.icon-white,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:focus > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > li > a:focus > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:focus > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"],
+.dropdown-submenu:focus > a > [class*=" icon-"] {
+  background-image: none;
+}
+.dropdown-menu {
+  border-radius: 0 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.dropdown-menu li a {
+  font-size: 13px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  color:#333333;
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus,
+.dropdown-menu li a:active,
+.dropdown-menu li.active a,
+.dropdown-menu li.active a:hover,
+.dropdown-menu .dropdown-submenu:hover > a,
+.nav-tabs .dropdown-menu li > a:focus {
+  background: #4f99c6;
+  color: #ffffff;
+}
+
+.dropdown-yellow li a:hover,
+.dropdown-yellow li a:focus,
+.dropdown-yellow li a:active,
+.dropdown-yellow li.active a,
+.dropdown-yellow li.active a:hover,
+.dropdown-yellow .dropdown-submenu:hover > a,
+.nav-tabs .dropdown-yellow li > a:focus {
+  background: #fee188;
+  color: #444444;
+}
+
+/* closer to the toggle button */
+.dropdown-menu.dropdown-closer {
+  top: 80%;
+  left: -10px;
+}
+.dropdown-menu.dropdown-closer.pull-right {
+  right: -10px;
+  left: auto;
+}
+
+/* top user info dropdowns */
+.dropdown-navbar {
+  padding: 0;
+  width: 240px;
+  box-shadow: 0 2px 4px rgba(30, 30, 100, 0.25);
+  border-color: #bcd4e5;
+  /* user info on top navbar icons */
+
+}
+#user_menu > li > a {
+  padding: 4px 12px;
+}
+#user_menu > li > a > [class*="icon-"] {
+  margin-right: 6px;
+  font-size: 120%;
+}
+
+/* toolbar dropdowns */
+.widget-toolbar > .dropdown > .dropdown-menu:before,
+.dropdown-menu.dropdown-caret:before {
+  border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  content: "";
+  display: inline-block;
+  left: 9px;
+  position: absolute;
+  top: -7px;
+}
+.widget-toolbar > .dropdown > .dropdown-menu:after,
+.dropdown-menu.dropdown-caret:after {
+  border-bottom: 6px solid #FFFFFF;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  content: "";
+  display: inline-block;
+  left: 10px;
+  position: absolute;
+  top: -6px;
+}
+.widget-toolbar > .dropdown > .dropdown-menu.pull-right:before,
+.dropdown-menu.pull-right.dropdown-caret:before {
+  left: auto;
+  right: 9px;
+}
+.widget-toolbar > .dropdown > .dropdown-menu.pull-right:after,
+.dropdown-menu.pull-right.dropdown-caret:after {
+  left: auto;
+  right: 10px;
+}
+
+

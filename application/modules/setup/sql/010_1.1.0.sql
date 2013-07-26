@@ -1,0 +1,1 @@
+ RENAME TABLE `client_notes` TO `client_notes` ;
